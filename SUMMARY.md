@@ -22,6 +22,9 @@
     * [HaloPSA](using-cow/navigation/integrations/halopsa/README.md)
       * [Halo PSA Permissions](using-cow/navigation/integrations/halopsa/halo-psa-permissions.md)
     * [Azure Table](using-cow/navigation/integrations/azure-table.md)
+    * [Azure Blob CSV](using-cow/navigation/integrations/azure-blob-csv/README.md)
+      * [Azure Blob CSV Permissions](using-cow/navigation/integrations/azure-blob-csv/azure-blob-csv-permissions.md)
+    * [Sync Status](using-cow/navigation/integrations/sync.md)
   * [Settings](using-cow/navigation/settings.md)
   * [Logs](using-cow/navigation/logs.md)
 

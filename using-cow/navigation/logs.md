@@ -1,20 +1,27 @@
 # Logs
 
-This page contains the logs for COW.
+The **Logs** page lists the events recorded for your organisation, such as syncs, imports and settings changes.
 
-### Log Filters
+## Log Filters
 
-Here you can optionally select the filters you want to use to narrow down the data displayed in the chart below.&#x20;
+Expand **Log Filters** to narrow the table, then click **Apply Filters**. **Clear Filters** removes every filter.
 
-{% hint style="warning" %}
-By default, logs show the last 7 days based on UTC time.
+| Filter              | Description                                                                                  |
+| ------------------- | -------------------------------------------------------------------------------------------- |
+| Select Start Date   | The first day to show. Required when you set an end date.                                     |
+| Select End Date     | The last day to show. It must be after the start date.                                        |
+| Filter by User      | Shows only entries for the user name you enter. The name must match exactly.                  |
+| Filter by Severity  | Shows only entries of the severity you pick: **Info**, **Warning**, **Error**, **Critical**, **Alert** or **Debug**. Picking more than one severity returns no entries. |
+
+{% hint style="info" %}
+With no filter applied, the table shows the last 7 days, based on UTC time. A date range longer than 10 days shows a warning, because a large range can time out.
 {% endhint %}
 
-### Table Info
+## Table Details
 
 | Column    | Description                                                            |
 | --------- | ---------------------------------------------------------------------- |
-| Timestamp | The relative time since the event                                      |
-| Message   | The details of the log entry                                           |
-| Severity  | Will display `Error`or `Info` to display the type of log entry         |
-| User      | The user who initiated the action that led to the entry, if applicable |
+| Timestamp | When the event happened.                                               |
+| Message   | The details of the log entry.                                          |
+| Severity  | The type of entry, for example `Info` or `Error`.                      |
+| User      | The user whose action led to the entry, where there is one.            |

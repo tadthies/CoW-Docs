@@ -2,7 +2,7 @@
 
 To enable secure warranty sync while following least privilege principles, youâ€™ll need to create a dedicated API account and role.
 
-### API  Security Levels setup
+## API  Security Levels setup
 
 1. Go to Admin > Account Settings & users > Security Levels
 2. Make a copy of API User (system) (API-only)
@@ -21,7 +21,7 @@ To enable secure warranty sync while following least privilege principles, youâ€
 **API account Setup Steps**
 
 1. Go to **Admin >** Resources/Users **> API Members**
-2. Create a new API user. Select the Security level we've just created.
+2. Create a new API user. Select the security level created above.
 3. Setup the API account according to your own procedures, giving it an email, internal location, and generate the credentials
 4. Select the "CyberDrain B.V." API Tracking integration vendor.
 5. Save the account and enter your credentials in cow.tech.

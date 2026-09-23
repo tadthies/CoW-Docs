@@ -4,19 +4,19 @@
 
 COW is designed to streamline the management of device warranties for CyberDrain [supported-device-types.md](troubleshooting/supported-device-types.md "mention"). Here's a breakdown of its core functionalities:
 
-#### Warranty Tracking
+### Warranty Tracking
 
 * **Seamless Warranty Maintenance**: COW collects and updates the warranty statuses for your devices, ensuring you have the latest information at your fingertips.
 * **Timely Notifications**: Receive alerts and notifications and a unified dashboard to keep you informed about devices in need of attention.
 
-#### Integration with PSA Tools
+### Integration with PSA Tools
 
-* **Effortless Synchronization**: Integrate with popular PSA tools like [autotask-psa](using-cow/navigation/integrations/autotask-psa/ "mention"), [connectwise-psa](using-cow/navigation/integrations/connectwise-psa/ "mention"), and [halopsa](using-cow/navigation/integrations/halopsa/ "mention") allowing for smooth data synchronization and management.
+* **PSA Synchronisation**: Integrate with PSA tools such as [autotask-psa](using-cow/navigation/integrations/autotask-psa/ "mention"), [connectwise-psa](using-cow/navigation/integrations/connectwise-psa/ "mention"), and [halopsa](using-cow/navigation/integrations/halopsa/ "mention") allowing for smooth data synchronization and management.
 * **Enhanced Flexibility**: Choose the configuration of clients and types that best fits your business needs for optimized operations.
 
-#### CSV Import / Export
+### CSV Import / Export
 
-* **Manual Data Import**: COW supports [csv-import.md](using-cow/navigation/devices/csv-import.md "mention"). This is ideal for a more customized approach, for a one-time data reconciliation, or those not using one of the supported .
+* **Manual Data Import**: COW supports [csv-import.md](using-cow/navigation/devices/csv-import.md "mention"). Use it for a one-off data reconciliation, or when you don't use one of the supported [integrations](using-cow/navigation/integrations/ "mention").
 * **Export Updated CSVs:** Download the updated list of data from your [devices](using-cow/navigation/devices/ "mention") page once COW has gone and collected all the warranty details and imported them for you.
 
 ## What It Does Not Do
@@ -30,14 +30,19 @@ It's right there in the name. COW is _Only Warranties._ While it strives to prov
 
 ## Pricing Tiers
 
-COW offers flexible pricing to accommodate various needs. Small shop managing less than 250 devices? Good news: You can use COW completely free!
+COW has three subscription tiers. You can see your current tier, and subscribe or cancel, on the **Subscription** tab of [settings.md](using-cow/navigation/settings.md "mention").
 
 ### Free Tier
 
-* **Up to 250 Devices**: Manage up to 250 devices at no cost. This is perfect for smaller MSPs or those looking to conduct a proof of concept.
-* **No Support:** The free version does not come with dedicated support, you are welcome to join the Discord to engage with other users.
+* **Up to 250 Devices**: Manage up to 250 devices at no cost, for a smaller MSP or a proof of concept.
+* **No Dedicated Support:** The free tier has no email support. Ask questions in the CyberDrain Discord instead.
 
-### Pro Teir
+### Pro Tier
 
-* **$69 per Month**: For just $69 a month, enjoy the ability to manage  up to 50,000 devices.
-* **Scalable Solution**: Ideal for growing MSPs looking for scalable device management.
+* **$69 per Month**: Taxes apply for businesses based in the Netherlands.
+* **Unlimited Devices**: A fair use policy applies, with a default limit of 50,000 devices.
+* **Email Support**: **Email Support** appears in the help menu on the [menu-bar.md](using-cow/navigation/menu-bar.md "mention").
+
+### Vendor Tier
+
+* **Custom Pricing**: Includes API access and unlimited devices. Click **Contact Us** on the **Subscription** tab to ask about the plan.

@@ -2,7 +2,7 @@
 
 To enable secure warranty sync while following least privilege principles, youâ€™ll need to create a dedicated API member and role.
 
-### Custom Role Creation
+## Custom Role Creation
 
 {% stepper %}
 {% step %}
@@ -14,7 +14,7 @@ To enable secure warranty sync while following least privilege principles, youâ€
 {% step %}
 ### Create a new Role
 
-Best practice is to create a custom role for each integration to be sure to scope the integration to the least priviledged access. Be sure to name the role something easily identifiable, e.g. `CyberDrain Only Warranties`
+Best practice is to create a custom role for each integration to be sure to scope the integration to the least priviledged access. Be sure to name the role something easily identifiable, for example `CyberDrain Only Warranties`
 {% endstep %}
 
 {% step %}
@@ -28,7 +28,7 @@ The following permissions are needed for COW to function properly. All other set
 |           | Configurations      |     | All  |        | All     |
 | System    | Table Setup         |     |      |        | All     |
 
-For the Table Setup function, click the customize link next to the function and select the following and add them to the "Allow Access to these" section:
+For the Table Setup function, click the customisation link next to the function and select the following and add them to the "Allow Access to these" section:
 
 * Company / Company Status
 * Company / Company Type
@@ -37,7 +37,7 @@ For the Table Setup function, click the customize link next to the function and 
 {% endstep %}
 {% endstepper %}
 
-### **API Member Creation**
+## API Member Creation
 
 {% stepper %}
 {% step %}
